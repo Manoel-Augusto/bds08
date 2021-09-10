@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color:#334AC3;
+  --secondary-color:#fff;
+  --grey-color:#8D8D8D;
+  --background:#E5E5E5
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--background);
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}

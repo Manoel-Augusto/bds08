@@ -1,0 +1,95 @@
+.pay-chart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 517px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+.pay-chart {
+  align-items: center;
+}
+
+.text-container {
+  margin-left: -41px;
+  margin-bottom: 50px;
+}
+
+.text-container h1 {
+  padding-top: 40px;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.text-container h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--grey-color);
+}
+
+.pie-chart-card {
+  width: 300px;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .pay-chart-card {
+    width: 496px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+  }
+  .text-container {
+    margin-left: -185px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pay-chart-card {
+    width: 688px;
+  }
+  .text-container {
+    margin-left: -380px;
+  }
+}
+@media (min-width: 992px) {
+  .pay-chart-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+    margin-left: 15px;
+  }
+  .pay-chart {
+    margin-top: -80px;
+    margin-right: 177px;
+  }
+
+  .text-container {
+    margin-left: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pay-chart-card {
+    display: flex;
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .pay-chart-card {
+    width: 87%;
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-around;
+  }
+}
