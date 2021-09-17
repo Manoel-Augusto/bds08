@@ -4,33 +4,64 @@
   border-radius: 5px;
   background-color: var(--secondary-color);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin: 0 10px 10px 10px;
+
 }
 
-.filter-container input {
-  width: 270px;
+.filter-container 
+  svg{
+  margin-left: -40px;
+  width: 10px;
+}
+.filter-input {
+  padding-left: 10px;
+  width: 248px;
   height: 50px;
   border: 1px solid #8d8d8d;
-  margin-left: 15px;
+  margin-left: -35px;
   border-radius: 4px;
   font-size: 16px;
   color: var(--grey-color);
-  border: 1px solid #8d8d8d;
-  padding-left: 12px;
+  background-color: var(--secondary-color);
+ 
+
+}
+
+.btn{
+border: none;
+  margin: -10px;
+  padding: 0;
+
 }
 @media (min-width: 576px) {
+  .filter-input {
+    width: 280px;
+    padding-left: 10px;
+    margin-left: -162px;
+   
+  
+  }
   .filter-container {
     width: 496px;
     margin: 0 40px 40px 40px;
   }
-
-  .filter-container input {
-    margin-left: 40px;
-  }
 }
 @media (min-width: 768px) {
+  .filter-input {
+    width: 270px;
+    margin-left: -380px;
+   
+   
+  
+  }
+  .filter-container 
+  svg{
+  margin-left: -50px;
+}
+
   .filter-container {
     width: 688px;
   }
@@ -41,6 +72,12 @@
     width: 960px;
     margin-left: 15px;
   }
+
+  .filter-input {
+    margin-left: -660px;
+  }
+
+  
 }
 @media (min-width: 1200px) {
   .filter-container {
@@ -52,6 +89,23 @@
 @media (min-width: 1400px) {
   .filter-container {
     width: 87%;
+
     margin-left: 120px;
   }
+  .filter-input {
+    margin-left: -625px;
+  }
+
+}
+
+@media (min-width: 1500px) {
+  .filter-container {
+    width: 87%;
+
+    margin-left: 120px;
+  }
+  .filter-input {
+    margin-left: -850px;
+  }
+
 }
